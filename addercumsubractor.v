@@ -52,6 +52,8 @@ initial begin
 cntr_in=1'b0;a=4'b1010;b=4'b0101;
 #5 cntr_in=1'b1;a=4'b1010;b=4'b0101;
 #5 cntr_in=1'b1;a=4'b0101;b=4'b1010;
+#5 cntr_in=1'b0;a=4'b0011;b=4'b0100;
+#5 cntr_in=1'b1;a=4'b1111;b=4'b1010;
 #5 $finish;
 end
 endmodule
